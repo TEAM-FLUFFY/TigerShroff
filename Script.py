@@ -1,34 +1,49 @@
 class script(object):
-    START_TXT = """𝙃𝙖𝙞 {},
-
-𝙸 𝙰𝚖 𝙰 𝙿𝚛𝚎 𝙵𝚞𝚗𝚌𝚝𝚒𝚘𝚗𝚎𝚍 𝚁𝚘𝚋𝚘𝚝 𝙽𝚊𝚖𝚎𝚍,  <a href=https://t.me/{}>{}</a>!
-
-<b> 𝑱𝒖𝒂𝒕 𝑨𝒅𝒅 𝑴𝒆 𝑻𝒐 𝒀𝒐𝒖𝒓 𝑮𝒓𝒐𝒖𝒑 𝑨𝒏𝒅 𝑴𝒂𝒌𝒆 𝑴𝒆 𝑨𝒅𝒎𝒊𝒏,𝑰'𝑳𝑳 𝑷𝒓𝒐𝒗𝒊𝒅𝒆 𝑴𝑶𝑽𝑰𝑬𝑺 𝑻𝒉𝒆𝒓𝒆 🤓 :)
-
-<a href='http://t.me/TigerShroffImdbot?startgroup=true'>𝑨𝒅𝒅 𝑴𝒆 𝑻𝒐 𝒀𝒐𝒖𝒓 𝑮𝒓𝒐𝒖𝒑 𝑨𝒏𝒅 𝑴𝒂𝒌𝒆 𝑴𝒆 𝑨𝒏 𝑨𝒅𝒎𝒊𝒏 </a>,🟡𝙏𝙝𝙚𝙣 𝙎𝙚𝙚 𝙈𝙮 𝙋𝙤𝙬𝙚𝙧𝙨✨️
-➖➖➖➖➖➖➖➖➖➖➖➖➖
-©MᴀɪɴᴛᴀɪɴᴇD Bʏ:<a href='tg://user?id=1951205538'><b>༒ᶜʳᵃᶻʸᴮᴼˢˢ卂乃卄丨丂卄乇Ҝ༒</b></a> .</b>"""
-
+    START_TXT = """𝙷𝙴𝚈 {},
+𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/{}>{}</a>, 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂, 𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙼𝙰𝙺𝙴 𝙼𝙴 𝙰𝙳𝙼𝙸𝙽.. 𝚃𝙷𝙴𝙽 𝚂𝙴𝙴 𝙼𝚈 𝙿𝙾𝚆𝙴𝚁𝚂 ❤️❤️"""
     HELP_TXT = """𝙷𝙴𝚈 {}
-<b>മോനെ Features എങ്ങനെയുൺ <a href='tg://user?id=1951205538'><b>𝑹𝒂𝒕𝒆 𝒊𝒕 𝒉𝒆𝒓𝒆 </a>
-Hey How's the features Did you Like it <a href='tg://user?id=1951205538'><b>𝑹𝒂𝒕𝒆 𝒊𝒕 𝒉𝒆𝒓𝒆 </a></b>"""
-    ABOUT_TXT = """
-╔══════════════════❍
-║╭━━━━━━━━━━━━━━━➣ 
-║➠ 𝙼𝚈 𝙽𝙰𝙼𝙴 -  Tiger Shroff
-║➠ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁 - :<a href='tg://user?id=1951205538'><b>༒ᶜʳᵃᶻʸᴮᴼˢˢ卂乃卄丨丂卄乇Ҝ༒</b></a>
-║➠ 𝙲𝚁𝙴𝙳𝙸𝚃𝚂 - <a href='https://t.me/Abhisheksvlog'>Everyone in this journey </a>
-║➠ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴 - <a href='https://docs.pyrogram.org/'>𝑷𝒚𝒕𝒉𝒐𝒏 3 </a>
-║➠ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈 - <a href='https://docs.pyrogram.org/'>𝑷ʏʀᴏɢʀᴀᴍ </a>
-║➠ 𝙲𝙻𝙾𝙽𝙴𝙳 𝙵𝚁𝙾𝙼 - EvaMaria
-║➠ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴 -  <a href='https://dashboard.heroku.com/apps'>𝑯𝒆𝒓𝒐𝒌𝒖</a>
-║➠ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂 - <a href='https://t.me/TigerShroffimdbot'>𝒗1.7.2[𝑷𝑹𝑶]</a>
-║➠ 𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴 - <a href='https://github.com/evamariatg/evamaria'>𝑪𝒍𝒊𝒄𝒌 𝑯𝒆𝒓𝒆</a>
-║╰━━━━━━━━━━━━━━━➣ ╚══════════════════❍
-    
+𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
+    ABOUT_TXT = """<b>✮ 𝙼𝚈 𝙽𝙰𝙼𝙴:  <a href=https://t.me/Naruto_ahautofilterbot>🇨🇷ᑎᗩᖇᑌTO</a></b></b>
+<b>✮ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/HAZARD_77>𝚂𝙷𝙰__</a></b>
+<b>✮ 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁: <a href=https://t.me/TEAM_KERALA>ᖴᑌᑕK Oᖴᖴ🇨🇷[𝗢𝗙𝗙𝗟𝗜𝗡𝗘]</a></b>
+<b>✮ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼</b>
+<b>✮ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹</b>
+<b>✮ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱</b>
+<b>✮ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙷𝙴𝚁𝙾𝙺𝚄</b>
+<b>✮ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.43</b>"""
+    DONATION_TXT = """<b>𝐃𝐨𝐧𝐚𝐭𝐢𝐨𝐧 & 𝐏𝐚𝐢𝐝 𝐏𝐫𝐨𝐦𝐨𝐭𝐢𝐨𝐧</b> 
 
+›› <b>𝐃𝐨𝐧𝐚𝐭𝐢𝐨𝐧</b>
 
-🔖 𝑸𝒖𝒐𝒕𝒆 : ആരും പേടിക്കേണ്ട എല്ലാവർക്കും കിട്ടും ™️"""
+⪼ <b>𝐘𝐨𝐮 𝐂𝐚𝐧 𝐃𝐨𝐧𝐚𝐭𝐞 𝐀𝐧𝐲 𝐀𝐦𝐨𝐮𝐧𝐭 𝐘𝐨𝐮 𝐇𝐚𝐯𝐞 💳. 
+<b>━━━━━━━━━᚜ Payment Methods ᚛━━━━━━━━━
+✮ 𝗚𝗼𝗼𝗴𝗹𝗲𝗣𝗮𝘆
+✮ 𝗣𝗮𝘆𝘁𝗺
+✮ 𝗣𝗵𝗼𝗻𝗲𝗣𝗲
+✮ 𝗣𝗮𝘆𝗣𝗮𝗹
+_𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐅𝐨𝐫 𝐊𝐧𝐨𝐰 𝐀𝐛𝐨𝐮𝐭 𝐓𝐡𝐞 𝐏𝐚𝐲𝐦𝐞𝐧𝐭 𝐈𝐧𝐟𝐨_
+━━━━━━━━━━━━᚜ <a href=https://t.me/Aadhi011><b>ꪖꪖᦔꫝỉ</b></a> ᚛━━━━━━━━━━━━
+
+›› <b>𝐏𝐚𝐢𝐝 𝐏𝐫𝐨𝐦𝐨𝐭𝐢𝐨𝐧</b>
+
+⪼ <b>𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐖𝐢𝐭𝐡 𝐘𝐨𝐮 𝐂𝐨𝐧𝐭𝐞𝐧𝐭 𝐖𝐡𝐢𝐜𝐡 𝐘𝐨𝐮 𝐖𝐚𝐧𝐭 𝐓𝐨 𝐏𝐫𝐨𝐦𝐨𝐭𝐞 . 
+<b>━━━━━━━━━᚜ Payment Methods ᚛━━━━━━━━━
+✮ 𝗚𝗼𝗼𝗴𝗹𝗲𝗣𝗮𝘆
+✮ 𝗣𝗮𝘆𝘁𝗺
+✮ 𝗣𝗵𝗼𝗻𝗲𝗣𝗲
+✮ 𝗣𝗮𝘆𝗣𝗮𝗹
+_𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐖𝐢𝐭𝐡 𝐘𝐨𝐮𝐫 𝐂𝐨𝐧𝐭𝐞𝐧𝐭 𝐀𝐧𝐝 𝐊𝐧𝐨𝐰 𝐀𝐛𝐨𝐮𝐭 𝐓𝐡𝐞 𝐏𝐚𝐲𝐦𝐞𝐧𝐭 𝐈𝐧𝐟𝐨_
+━━━━━━━━━━━━᚜ <a href=https://t.me/Aadhi011><b>ꪖꪖᦔꫝỉ</b></a> ᚛━━━━━━━━━━━━"""
+    PROMOTION_TXT = """<b>〄 𝐏𝐚𝐢𝐝 𝐏𝐫𝐨𝐦𝐨𝐭𝐢𝐨𝐧 〄</b>
+
+⪼ <b>𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐖𝐢𝐭𝐡 𝐘𝐨𝐮 𝐂𝐨𝐧𝐭𝐞𝐧𝐭 𝐖𝐡𝐢𝐜𝐡 𝐘𝐨𝐮 𝐖𝐚𝐧𝐭 𝐓𝐨 𝐏𝐫𝐨𝐦𝐨𝐭𝐞 . 
+<b>━━━━━━━━━᚜ Payment Methods ᚛━━━━━━━━━
+✮ 𝗚𝗼𝗼𝗴𝗹𝗲𝗣𝗮𝘆
+✮ 𝗣𝗮𝘆𝘁𝗺
+✮ 𝗣𝗵𝗼𝗻𝗲𝗣𝗲
+✮ 𝗣𝗮𝘆𝗣𝗮𝗹
+_𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐖𝐢𝐭𝐡 𝐘𝐨𝐮𝐫 𝐂𝐨𝐧𝐭𝐞𝐧𝐭 𝐀𝐧𝐝 𝐊𝐧𝐨𝐰 𝐀𝐛𝐨𝐮𝐭 𝐓𝐡𝐞 𝐏𝐚𝐲𝐦𝐞𝐧𝐭 𝐈𝐧𝐟𝐨_
+━━━━━━━━━━━━᚜ <a href=https://t.me/Aadhi011><b>ꪖꪖᦔꫝỉ</b></a> ᚛━━━━━━━━━━━━""" 
     FILE_TXT = """➤ 𝐇𝐞𝐥𝐩: 𝐅𝐢𝐥𝐞 𝐒𝐭𝐨𝐫𝐞 𝐌𝐨𝐝𝐮𝐥𝐞../
 
 <b>By Using This Module You can store files in My database and I will You A Permanent link To access The saved Files.If You want to add files from a Public channel send the file link only or You want to store files from a Private channel you must make me admin on their to access files files.../</b>
@@ -54,24 +69,43 @@ t𝗋𝗒 𝗍𝗁𝗂𝗌 𝖮𝗎𝗍:
 3. /Runs - Jokes 
 4. /Goal or /Shoot - To Make A Goal Or Shoot
 5. /luck or /cownd - Spin the Lucky"""
-    SHARE_TXT = """Help: <b>Sharing Text Maker</b>
-a bot to create a link to share text in the telegram.
-<b>Commands and Usage:</b>
-• /share (text or reply to message)
-<b>NOTE:</b>
-• IMDb should have admin privillage.
-• These commands works on both pm and group.
-• These commands can be used by any group member."""
-    SOURCE_TXT = """<b>Source:</b>
-This bot is a Close source project.But my source code would be here
-Source: <a href='https://Github.com/EvaMariaTG/EvaMaria'>Source - Click here 👈</a>
-    
+    DEPLOY_TXT = """<b>𝙷𝙾𝚆 𝚃𝙾 𝙳𝙴𝙿𝙻𝙾𝚈..?</b> 
+  
+It's a very simple process.. Follow the below note to  DEPLOY the Bot without any errors like ᗩᒍᗩ᙭.
+
+✮ Source Code 1 ›› https://github.com/Aadhi000/Ajax
+✮ Source Code 2 ›› https://github.com/Aadhi000/Ajax-Extra-Features
+
+➜ <i><b>Steps...</b></i>
+
+• First Open Source Code 1.
+• Then Click The Star Button.
+• Then Make Your Browser In Desktop Mode. Now You Can See A Fork Button. Click On It And Wait Until Complet It.
+• Then Now You See A New Repo On Your GitHub Account With Your GitHub ID. Eg- GitHub Username/Ajax.
+• Then Copy The Forked Link.
+• ﹝https://heroku.com/deploy?template=your link﹞ Paste Your Forked Link On The Your Link Area The Copy The Whole Link And Paste On Any Browser..
+• Then Provide Necessary Information And Deploy Your Bot..
+• Now You Can See That Your Bot Is Working..
+
+➜ <i><b>Adding Extra Features.</b></i>
+
+• Now We Are Going To Add Extra Features.
+• First Open And Fork The Souce Code 2.
+•Then Open Your Heruko account And Select Your Deployed Bot .
+•Then Go To Settings.. There You Can See The Button Reveal Config Vars.
+• Click The Button And Add Key Named <code>UPSTREAM_REPO</code>.
+• On The Value Side Your New Second Forked Link Of Extra Features..
+• After Restarting The Bot.. It will perfectly work for you...
+
+Credits ›› <a href=https://t.me/+veUIdIW2CQ5mOGU5><b>𝐌𝐖 𝐔𝐩𝐝𝐚𝐭𝐞𝐳™</b></a>
+
+𝙿𝙻𝙴𝙰𝚂𝙴 𝚂𝙷𝙰𝚁𝙴 𝙰𝙽𝙳 𝚂𝚄𝙿𝙿𝙾𝚁𝚃"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and ᗩᒍᗩ᙭  will respond whenever a keyword is found the message
 
 <b>NOTE:</b>
-1. ᗩᒍᗩ᙭ should have admin privillage.
+1. 𝚉𝚎𝚗𝚍𝚊𝚢𝚊 should have admin privillage.
 2. only admins can add filters in a chat.
 3. alert buttons have a limit of 64 characters.
 
@@ -92,15 +126,6 @@ Song Download Module, For Those Who Love Music
 - Works in bot pm
 
 Made By <a href=https://t.me/+veUIdIW2CQ5mOGU5>𝐌𝐖 𝐔𝐩𝐝𝐚𝐭𝐞𝐬</a>"""
-    SHARE_TXT = """Help: <b>Sharing Text Maker</b>
-a bot to create a link to share text in the telegram.
-<b>Commands and Usage:</b>
-• /share (text or reply to message)
-<b>NOTE:</b>
-• IMDb should have admin privillage.
-• These commands works on both pm and group.
-• These commands can be used by any group member."""
-   
     PIN_TXT ="""<b>PIN MODULE</b>
 <b>Pin :</b>
 
@@ -288,7 +313,7 @@ This module only works for my admins
 ➪ /short: 𝗎𝗌𝖾 𝗍𝗁𝗂𝗌 𝖼𝗈𝗆𝗆𝖺𝗇𝖽 𝗐𝗂𝗍𝗁 𝗒𝗈𝗎𝗋 𝗅𝗂𝗇𝗄 𝗍𝗈 𝗀𝖾𝗍 𝗌𝗁𝗈𝗋𝗍𝖾𝖽 𝗅𝗂𝗇𝗄𝗌
 
 ➛𝖤𝗑𝖺𝗆𝗉𝗅𝖾:
-/short https://t.me/+veUIdIW2CQ5mOGU5"""
+/short https://t.me/mc_movie_update_2022"""
 
     VIDEO_TXT ="""𝙷𝙴𝙻𝙿 𝚈𝙾𝚄 𝚃𝙾 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝚅𝙸𝙳𝙴𝙾 𝙵𝚁𝙾𝙼 𝚈𝙾𝚄𝚃𝚄𝙱𝙴.
 
@@ -319,7 +344,7 @@ This module only works for my admins
 
 ➪ 𝖩𝗎𝗌𝗍 𝗌𝖾𝗇𝖽 𝗆𝖾 𝖺 𝗂𝗆𝖺𝗀𝖾 𝗍𝗈 𝖾𝖽𝗂𝗍 ✨
 
-𝖬𝖺𝖽𝖾 𝖻𝗒 <a href=https://t.me/+veUIdIW2CQ5mOGU5>𝐌𝐖 𝐔𝐩𝐝𝐚𝐭𝐞𝐬</a>"""
+𝖬𝖺𝖽𝖾 𝖻𝗒 <a href=https://t.me/ADHOLOKAMHDCHANNEL>⚡𝙰𝙳𝙷𝙾𝙻𝙾𝙺𝙰𝙼 𝙷𝙳 𝙲𝙷𝙰𝙽𝙽𝙴𝙻⚡</a>"""
 
     STICKER_TXT = """𝚈𝙾𝚄 𝙲𝙰𝙽 𝚄𝚂𝙴 𝚃𝙷𝙸𝚂 𝙼𝙾𝙳𝚄𝙻𝙴 𝚃𝙾 𝙵𝙸𝙽𝙳 𝙰𝙽𝚈 𝚂𝚃𝙸𝙲𝙺𝙴𝚁𝚂 𝙸𝙳.
 • 𝐔𝐒𝐀𝐆𝐄
